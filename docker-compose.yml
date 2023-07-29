@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  overtimdb:
+        image: mcr.microsoft.com/mssql/server
+  overtime.api:
+    image: ${DOCKER_REGISTRY-}overtimeapi
+    build:
+      context: .
+      dockerfile: OverTime.API/Dockerfile
