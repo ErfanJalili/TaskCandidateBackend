@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OvetimePolicies", "OvetimeP
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OverTimeTest", "OverTimeTest", "{658418AE-C758-4E56-8D90-5937347EECCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverTime.Test", "OverTime.Test\OverTime.Test.csproj", "{0B15D2CB-72FC-4FCF-80EB-E97C1C2E4D33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverTime.Test", "OverTime.Test\OverTime.Test.csproj", "{0B15D2CB-72FC-4FCF-80EB-E97C1C2E4D33}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6316F07D-E5EC-4E38-8846-D672F9377EFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverTime.WebClient", "..\OverTime.WebClient\OverTime.WebClient.csproj", "{F2722EE8-8623-4948-833D-B01C0EC6046B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{6316F07D-E5EC-4E38-8846-D672F9377EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6316F07D-E5EC-4E38-8846-D672F9377EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6316F07D-E5EC-4E38-8846-D672F9377EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2722EE8-8623-4948-833D-B01C0EC6046B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2722EE8-8623-4948-833D-B01C0EC6046B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2722EE8-8623-4948-833D-B01C0EC6046B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2722EE8-8623-4948-833D-B01C0EC6046B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{E8037123-D832-4B16-AB7F-E34D2868B566} = {2B310FF5-FD28-4BEB-ADE5-BB0596E154F8}
 		{73A399B3-E367-49CC-8995-A3778973D73C} = {2B310FF5-FD28-4BEB-ADE5-BB0596E154F8}
 		{0B15D2CB-72FC-4FCF-80EB-E97C1C2E4D33} = {658418AE-C758-4E56-8D90-5937347EECCF}
+		{F2722EE8-8623-4948-833D-B01C0EC6046B} = {2B310FF5-FD28-4BEB-ADE5-BB0596E154F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38C072BA-C715-45DD-8B30-A718F5AE147E}

@@ -18,6 +18,7 @@ namespace OverTime.Infrastructure.MicroORM
 		private string Connectionstring = "OverTimeConnection";
 
 		public Dapper(IConfiguration config)
+		
 		{
 			_config = config;
 		}

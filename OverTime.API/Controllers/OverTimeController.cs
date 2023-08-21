@@ -74,7 +74,7 @@ namespace OverTime.API.Controllers
 
 				var res = await _personRepository.AddAsync(dtoToPerson);
 
-				//entity ti dto
+				//entity to dto
 				var personToDto = _mapper.Map<PersonData, PersonDto>(res);
 
 				// dto to service response
